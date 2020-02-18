@@ -4,8 +4,6 @@ line = file_in.readline()
 maxSlices,nbTypes = [int(i) for i in line.split()]
 line = file_in.readline()
 slices = [int(i) for i in line.split()]
-#somme all
-#generete combinisions
 indices = list()
 maxfound = 0
 i = 0
@@ -21,7 +19,7 @@ while(nbTypes > 0):
         i = i + 1
     nbTypes = nbTypes - 1
 
-#the combinisions found is in maxsumslices
+#the combinisions found is in maxfound
 print("Maximul slices found ") 
 print(maxfound)
 print("Number of types to order :") 
