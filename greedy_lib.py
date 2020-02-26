@@ -8,7 +8,7 @@ class Library():
         self.bookPerDay = bookPerDay
         self.listBooks = listBooks
 
-files = ["a_example","b_read_on","c_incunabula","e_so_many_books","f_libraries_of_the_world"]
+files = ["a_example","b_read_on","e_so_many_books","f_libraries_of_the_world"]
 #files = ["d_tough_choices"]
 finalScore = 0
 timm = time.time()
